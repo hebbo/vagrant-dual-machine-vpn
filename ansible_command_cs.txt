@@ -1,0 +1,5 @@
+vagrant halt [hostname] -- stops the VM. Doesnt destroy
+vagrant remove [hostname]
+vagrant up [hostname]
+vagrant ssh [hostname]
+
