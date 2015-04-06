@@ -1,0 +1,10 @@
+---
+
+
+- hosts: managed
+
+  tasks:
+  - name: write file in home folder for vagrant
+    shell: echo "hello world!" > /home/vagrant/hello.txt
+
+
